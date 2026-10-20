@@ -1,0 +1,25 @@
+@import url("https://fonts.googleapis.com/css2?family=Barlow:wght@300;400;500;600;700;800&family=Roboto:wght@400;500&display=swap");
+@import "tailwindcss";
+
+@theme {
+  --font-barlow: "Barlow", sans-serif;
+  --font-roboto: "Roboto", sans-serif;
+
+  --color-accent: #0a84ff;
+  --color-accent-light: #459cf3;
+  --color-partner-line: #4774ff;
+  --color-page: #030303;
+  --color-card: #141414;
+  --color-card-2: #191919;
+  --color-card-3: #1e1e1e;
+  --color-field: #202020;
+  --color-chip: #1f1f1f;
+  --color-line: #2a2a2a;
+  --color-muted: #a0a0a0;
+}
+
+@layer base {
+  body {
+    @apply bg-page font-barlow text-white antialiased;
+  }
+}
